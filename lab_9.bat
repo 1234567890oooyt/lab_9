@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-053b0d53c279acc90 --count 1 --instance-type t2.micro --key-name citroen --security-group-ids sg-086647c8badcd537e --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=\"Lab9\"}]" --user-data file://script9.sh
